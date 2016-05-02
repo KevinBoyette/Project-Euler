@@ -17,6 +17,7 @@ int divisor(int q, int p)
     // The Sum of n numbers is
     // n(n+1) / 2
     // where n can be expressed as p/q
+    // Note that we have q * the sum of natural numbers
 
     return q * (p / q) * ((p / q) + 1) / 2;
 }
